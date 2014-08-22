@@ -1399,6 +1399,7 @@ pre code {
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    height: 50px;
   }
 }
 @media (min-width: 992px) {
@@ -3591,7 +3592,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #fff;
+  background-color: #eee;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3788,8 +3789,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0);
+          box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0);
 }
 .navbar-collapse.in {
   overflow-y: auto;
@@ -4185,14 +4186,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 fieldset[disabled] .navbar-default .btn-link:hover,
 .navbar-default .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-default .btn-link:focus {
-  color: #ccc;
+  color: #fff;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #fff;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #777;
+  color: #fff;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4234,7 +4235,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #fff;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,

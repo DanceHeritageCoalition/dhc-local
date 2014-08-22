@@ -25,6 +25,7 @@ body {
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
+  background-color: #fff;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -34,6 +35,10 @@ body {
   width: auto;
 }
 
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #fff;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
