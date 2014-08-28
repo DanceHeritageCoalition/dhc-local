@@ -3884,7 +3884,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav .open>a,.nav .open>a:hover,.nav .open>a:focus{
   background-color:#eee;
-  border-color:#428bca;
+  border-color:#477FA1
 }
 
 .nav .nav-divider{
@@ -4576,7 +4576,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus{
-  color:#fff;
+  color:#3071a9;
   background-color:transparent
 }
 
